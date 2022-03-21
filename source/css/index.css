@@ -99,7 +99,7 @@ a{
     background-color: red;
 }
   
-.flex-container > .divAbout {
+.flex-container > .divbody {
     width: 40rem;
     height: 15rem;
     margin: 0rem 10rem 0rem 0rem;
@@ -121,12 +121,6 @@ a{
     width: 100vw;
     height: 100vh;
     background-color: blue;
-}
-
-.flex-containerE > .divexperience{
-    width: 40rem;
-    height: 15rem;
-    margin: 0rem 10rem 0rem 0rem;
 }
 
 .flex-containerEd{
