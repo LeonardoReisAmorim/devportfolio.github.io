@@ -7,15 +7,25 @@
 html, body{
     height: 100%;
     scroll-behavior: smooth;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.1rem;
+}
+
+#back-to-top{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10rem;
+    width: 3rem;
+    text-align: center;
+}
+
+#back-to-top:hover{
+    background-color: #f2f2f5;
 }
 
 .title{
     font-size: 3rem;
     text-align: center;
-}
-
-.bodyContent{
-    font-size: 1rem;
 }
 
 #content{
@@ -113,7 +123,7 @@ a{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 70rem;
+    height: 80rem;
     background-color: #f2f2f5;
 }
   
@@ -126,13 +136,13 @@ a{
 .flex-containerE > .divbody {
     width: 40rem;
     height: 25rem;
-    margin: 0rem 10rem 0rem 0rem;
+    margin: -40rem 10rem 0rem 0rem;
 }
 
 .flex-containerE > .divbodyE {
     width: 40rem;
     height: 40rem;
-    margin: 0rem 10rem 0rem 0rem;
+    margin: -25rem 10rem 0rem 0rem;
 }
 
 .cardsEx{
