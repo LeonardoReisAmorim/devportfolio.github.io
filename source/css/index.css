@@ -15,7 +15,7 @@ html, body{
 }
 
 .bodyContent{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 #content{
@@ -107,9 +107,39 @@ a{
     width: 100vw;
     height: 100vh;
 }
+
+.flex-containerE {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70rem;
+    background-color: #f2f2f5;
+}
   
 .flex-container > .divbody {
     width: 40rem;
     height: 25rem;
     margin: 0rem 10rem 0rem 0rem;
 }
+
+.flex-containerE > .divbody {
+    width: 40rem;
+    height: 25rem;
+    margin: 0rem 10rem 0rem 0rem;
+}
+
+.flex-containerE > .divbodyE {
+    width: 40rem;
+    height: 40rem;
+    margin: 0rem 10rem 0rem 0rem;
+}
+
+.cardsEx{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px black solid;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
