@@ -6,6 +6,7 @@
 
 html, body{
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 #content{
@@ -132,8 +133,29 @@ a{
     background-color: rgb(255, 0, 242);
 }
 
-.flex-containerEd > .diveducation{
-    width: 40rem;
-    height: 15rem;
-    margin: 0rem 10rem 0rem 0rem;
+.flex-containerPr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 255, 34);
+}
+
+.flex-containerSk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(251, 255, 0);
+}
+
+.flex-containerCo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 195, 255);
 }
