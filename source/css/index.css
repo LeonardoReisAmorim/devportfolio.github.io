@@ -178,15 +178,39 @@ a{
 
 .flex-containerE > .divbodyE {
     width: 40rem;
-    height: 40rem;
-    margin: -25rem 10rem 0rem 0rem;
+    height: 100%;
+    margin-top: 15%;
 }
 
 .cardsEx{
     padding: 1rem;
     margin-bottom: 1rem;
-    border: 1px black solid;
+    border: 1px rgb(206, 206, 206) solid;
     border-radius: 1rem;
     background-color: #fff;
 }
 
+.imgProject > img{
+    width: 60%;
+}
+
+.imgProject{
+    width: 100%;
+}
+
+.bodyProjects{
+    width: 100%;
+}
+
+.containerProjects{
+    display: flex;
+    flex-direction: row;
+}
+
+.linkProjects > a{
+    color: #000;
+}
+
+.bodyInternProjects{
+    
+}
