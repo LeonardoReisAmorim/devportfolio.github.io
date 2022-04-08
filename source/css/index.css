@@ -229,3 +229,16 @@ a{
 .bodyInternProjects{
     text-align: justify;
 }
+
+.skillsBody{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill{
+    background-color: #e4e4ea;
+    margin: 2%;
+    padding: 2%;
+}
