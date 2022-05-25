@@ -247,3 +247,13 @@ a{
 .skill:hover{
     transform: scale(1.3);
 }
+
+#linkedIn{
+    color: #000;
+    text-decoration: solid;
+}
+
+#linkedIn:hover{
+    text-decoration: none;
+    color: rgb(4, 0, 255);
+}
