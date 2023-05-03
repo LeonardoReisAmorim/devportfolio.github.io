@@ -80,3 +80,4 @@ document.getElementById("navSide").addEventListener('mouseout', ()=>{
     document.getElementById("divlinks").style.opacity = 0;
 })
 
+//teste
