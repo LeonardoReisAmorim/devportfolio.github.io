@@ -257,3 +257,72 @@ a{
     text-decoration: none;
     color: rgb(4, 0, 255);
 }
+
+
+@media only screen and (max-width: 480px) {
+
+    body{
+        background-color: #282828;
+        color: white;
+    }
+
+    #container{
+        display: none;
+    }
+
+    #navSide{
+        display: none;
+    }
+
+    #back-to-top{
+        display: none;
+    }
+
+    #content{
+        height: 100%;
+        width: 100%;
+    }
+
+    #flex-containerMobile{
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    .flex-container > .divbody{
+        width: 100%;
+        height: 50%;
+        margin: 0px;
+    }
+
+    #homePresentation{
+        margin: 0;
+    }
+
+    #photoMobile{
+        width: 85%;
+        height: 85%;
+    }
+
+    .img{
+        animation: none;
+    }
+
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .flex-containerE{
+        flex-direction: column;
+        background-color: #282828;
+    }
+
+    .cardsEx{
+        background-color: #282828;
+    }
+
+    #divAbout{
+        width: 100%;
+        height: 100%;
+    }
+}
