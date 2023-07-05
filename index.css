@@ -220,6 +220,10 @@ a{
     display: flex; 
     justify-content: center;
     color: #000;
+    border: 1px rgb(206, 206, 206) solid;
+    border-radius: 1rem;
+    width: 75%;
+    margin: 10%;
 }
 
 .linkProjects:hover{
@@ -251,9 +255,25 @@ a{
 #linkedIn{
     color: #000;
     text-decoration: solid;
+    border: 1px rgb(206, 206, 206) solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
 }
 
 #linkedIn:hover{
+    text-decoration: none;
+    color: rgb(4, 0, 255);
+}
+
+#Github{
+    color: #000;
+    text-decoration: solid;
+    border: 1px rgb(206, 206, 206) solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+#Github:hover{
     text-decoration: none;
     color: rgb(4, 0, 255);
 }
@@ -283,25 +303,22 @@ a{
         width: 100%;
     }
 
-    #flex-containerMobile{
-        display: block;
-        height: 100%;
-        width: 100%;
-    }
-
     .flex-container > .divbody{
-        width: 100%;
-        height: 50%;
-        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        margin-right: 3rem;
     }
 
     #homePresentation{
         margin: 0;
+        margin-left: -1rem;
+        font-size: 1.5rem;
     }
 
     #photoMobile{
-        width: 85%;
-        height: 85%;
+        width: 100%;
+        height: 100%;
     }
 
     .img{
@@ -315,14 +332,104 @@ a{
     .flex-containerE{
         flex-direction: column;
         background-color: #282828;
+        margin-top: 80%;
     }
 
     .cardsEx{
         background-color: #282828;
     }
 
-    #divAbout{
-        width: 100%;
-        height: 100%;
+    .flex-containerE > .divbodyE{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        margin-right: 3rem;
+    }
+
+    .flex-containerE > .divbody{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        margin-right: 3rem;
+    }
+
+    #Education{
+        margin-top: 52rem;
+    }
+
+    #aboutMobile{
+        margin-top: -15rem;
+    }
+
+    #Experience{
+        margin-top: 10rem;
+    }
+
+    #experienceMobileTitle{
+        padding-right: 3rem;
+    }
+
+    #educationMobileCard{
+        margin-top: -17rem;
+    }
+
+    #Projects{
+        margin-top: 5rem;
+    }
+
+    .linkProjects > a{
+        color: white;
+    }
+
+    .linkProjects{
+        transition: none;
+    }
+
+    .linkProjects:hover{
+        transform: none;
+    }
+
+    .imgProject{
+        display: none;
+    }
+
+    #projectBodyMobile{
+        margin-bottom: 7rem;
+    }
+
+    #skillMobileBody{
+        margin-bottom: 15rem;
+    }
+
+    .skill{
+        background-color: #282828;
+    }
+
+    .skillsBody{
+        flex-direction: column;
+    }
+
+    .skill:hover{
+        transform: none;
+    }
+
+    #Contact{
+        margin-top: 15rem;
+    }
+
+    #linkedIn{
+        color: white;
+        border: 1px rgb(206, 206, 206) solid;
+        border-radius: 1rem;
+        width: 60%;
+        text-align: center;
+    }
+
+    #Github{
+        color: white;
+        border: 1px rgb(206, 206, 206) solid;
+        border-radius: 1rem;
+        width: 60%;
+        text-align: center;
     }
 }
