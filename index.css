@@ -343,7 +343,6 @@ a{
         display: flex;
         flex-direction: column;
         width: 70vw;
-        margin-right: 3rem;
     }
 
     .flex-containerE > .divbody{
@@ -359,6 +358,7 @@ a{
 
     #aboutMobile{
         margin-top: -15rem;
+        margin-left: 3rem;
     }
 
     #Experience{
@@ -371,6 +371,7 @@ a{
 
     #educationMobileCard{
         margin-top: -17rem;
+        margin-left: 3rem;
     }
 
     #Projects{
@@ -395,6 +396,7 @@ a{
 
     #projectBodyMobile{
         margin-bottom: 7rem;
+        margin-left: 3rem;
     }
 
     #skillMobileBody{
@@ -431,5 +433,13 @@ a{
         border-radius: 1rem;
         width: 60%;
         text-align: center;
+    }
+
+    #ContactMobile{
+        margin-top: -18rem;
+    }
+
+    .title{
+        margin-left: 1.7rem;
     }
 }
