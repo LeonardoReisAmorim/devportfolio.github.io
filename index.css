@@ -45,6 +45,11 @@ html, body{
     -webkit-animation: bounce 2.5s infinite alternate;
 }
 
+img{
+    width: 60%;
+    border-radius: 20%;
+}
+
 @keyframes bounce {
     from {
       transform: translateY(0px);
@@ -353,7 +358,7 @@ a{
     }
 
     #Education{
-        margin-top: 52rem;
+        margin-top: 47rem;
     }
 
     #aboutMobile{
@@ -375,7 +380,7 @@ a{
     }
 
     #Projects{
-        margin-top: 5rem;
+        margin-top: 0rem;
     }
 
     .linkProjects > a{
@@ -401,10 +406,14 @@ a{
 
     #skillMobileBody{
         margin-bottom: 15rem;
+        margin-left: 60px;
     }
 
     .skill{
         background-color: #282828;
+        border: solid 1px white;
+        border-radius: 15px;
+        text-align: center;
     }
 
     .skillsBody{
@@ -441,5 +450,9 @@ a{
 
     .title{
         margin-left: 1.7rem;
+    }
+
+    #skillsMobile{
+        margin-left: 3rem;
     }
 }
