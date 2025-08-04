@@ -139,7 +139,7 @@ img{
     visibility: hidden;
 }
 
-li{
+.liA{
     list-style:none;
     list-style-type:none;
     font-size: 1.3rem;
@@ -165,7 +165,6 @@ a{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80rem;
     background-color: #f2f2f5;
 }
   
@@ -281,6 +280,26 @@ a{
 #Github:hover{
     text-decoration: none;
     color: rgb(4, 0, 255);
+}
+
+.menu-mobile{
+    display: none;
+}
+
+#nav-mobile {
+    display: none;
+    background-color: #282828;
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+}
+
+#nav-mobile.show {
+    display: block;
+    border: 1px solid white;
+    border-radius: 5%;
 }
 
 
@@ -454,5 +473,41 @@ a{
 
     #skillsMobile{
         margin-left: 3rem;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+
+    .hamburguer-bt {
+        cursor: pointer;
+        height: 60px;
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        width: 60px;
+        margin-top:-30px;
+        transition: all .2s ease-out;
+    }
+
+    .hamburguer-bt .hamburguer-bt__stripe {
+        width: 100%;
+        height: 10px;
+        background: white;
+        margin: 4px auto;
+        transition: all 0.3s;
+        backface-visibility: hidden;
+    }
+
+    .hamburguer-bt.on .hamburguer-bt__stripe__top {
+        transform: rotate(45deg) translate(10px, 10px);
+    }
+
+    .hamburguer-bt.on .hamburguer-bt__stripe__middle {
+        opacity: 0;
+    }
+
+    .hamburguer-bt.on .hamburguer-bt__stripe__bottom {
+        transform: rotate(-45deg) translate(10px, -10px);
     }
 }

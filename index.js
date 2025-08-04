@@ -80,4 +80,14 @@ document.getElementById("navSide").addEventListener('mouseout', ()=>{
     document.getElementById("divlinks").style.opacity = 0;
 })
 
-//teste
+document.addEventListener("DOMContentLoaded", function () {
+  const buttons = document.querySelectorAll(".hamburguer-bt");
+  const navMobile = document.getElementById("nav-mobile");
+
+  buttons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      this.classList.toggle("on");
+      navMobile.classList.toggle("show");
+    });
+  });
+});
