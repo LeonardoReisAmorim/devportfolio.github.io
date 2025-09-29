@@ -1,227 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>devportfolio</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=PT+Sans&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Desenvolvimento de Software">
+  <title>Portfólio Leonardo Reis</title>
+  <link rel="stylesheet" href="./index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script defer src="./index.js"></script>
 </head>
 <body>
-    <div id="back-to-top">Top</div>
-    <div id="content">
-        <div class="flex-container">
-            <div class="divbody">
-                <p id="homePresentation">Hi, I'm <br>  Leonardo Reis <br> Developer Full stack</p>
-            </div>
-            <div class="divbody">
-                <div class="img"><img id="photoMobile" src="foto.jpg" alt="Foto portfólio"></div>
-            </div>
-        </div>
-    </div>
+  <header>
+    <div class="logo">My Portfólio</div>
 
-    <div class="menu-mobile">
-        <div class="hamburguer-bt">
-            <div class="hamburguer-bt__stripe hamburguer-bt__stripe__top"></div>
-            <div class="hamburguer-bt__stripe hamburguer-bt__stripe__middle"></div>
-            <div class="hamburguer-bt__stripe hamburguer-bt__stripe__bottom"></div>
-        </div>
-        <div id="nav-mobile">
-            <ul>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Experience">Experience</a></li>
-                <li><a href="#Education">Formation</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-    
+	<div class="hamburger" id="hamburger">
+		<span></span>
+		<span></span>
+		<span></span>
+  	</div>
 
-    <div id="navSide">
-        <div id="container">
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-        </div>
-        
-        <div id="divlinks">
-            <ul id="links">
-                <li class="liA"><a href="#About">About</a></li>
-                <li class="liA"><a href="#Experience">Experience</a></li>
-                <li class="liA"><a href="#Education">Formation</a></li>
-                <li class="liA"><a href="#Projects">Projects</a></li>
-                <li class="liA"><a href="#Skills">Skills</a></li>
-                <li class="liA"><a href="#Contact">Contact</a></li>
-            </ul>
-        </div>    
-    </div>
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#sobre" class="section reveal">About</a></li>
+        <li><a href="#experiencia" class="section reveal">Experience</a></li>
+        <li><a href="#formacao" class="section reveal">Formation</a></li>
+        <li><a href="#projetos" class="section reveal">Projects</a></li>
+        <!-- <li><a href="#skills" class="section reveal">Skills</a></li> -->
+        <li><a href="#contato" class="section reveal">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <div class="flex-container" id="About">
-        <div class="divbody" id="divAbout">
-            <p class="title">About</p>
-        </div>
-        <div class="divbody" id="aboutMobile">
-            <p>Software Engineer with experience in scalable and efficient architectures, focusing on microservice-oriented projects and REST API integration. Extensive knowledge of ASP.NET, .NET, TypeScript, Docker and RabbitMQ, with experience in backend, frontend development and development of apps with virtual reality using Unity and Google Cardboard SDK, as well as systems integration. I work with layer-based, service-oriented and event-oriented software architectures, following good development practices such as SOLID and using design patterns. Degree in Systems Analysis and Development from IFBA and with a technical course of Systems development from SENAI CIMATEC, I have advanced knowledge in databases, authentication and security with JWT, as well as code versioning with Git.</p>
-        </div>
+  <section class="hero">
+    <h1>Hi, I'm Leonardo Reis Developer Full stack</h1>
+    <p>Transforme your ideias in digital solutions</p>
+    <a href="#projetos" class="btn">See Projects</a>
+  </section>
+
+  <section id="sobre" class="section">
+    <h2>About</h2>
+    <p>Software Engineer with experience in scalable and efficient architectures, focusing on microservice-oriented projects and REST API integration. Extensive knowledge of ASP.NET, .NET, TypeScript, Docker and RabbitMQ, with experience in backend, frontend development and development of apps with virtual reality using Unity and Google Cardboard SDK, as well as systems integration. I work with layer-based, service-oriented and event-oriented software architectures, following good development practices such as SOLID and using design patterns. Degree in Systems Analysis and Development from IFBA and with a technical course of Systems development from SENAI CIMATEC, I have advanced knowledge in databases, authentication and security with JWT, as well as code versioning with Git.</p>
+  </section>
+
+  <section id="experiencia" class="section">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Gomara Taxtech</strong> – Mid Full-Stack Developer (Dezember 2021 - Actually)</li>
+      <li><strong>Softwell Solutions Ltda</strong> – Software development trainee (June 2021 - November 2021)</li>
+	  <li><strong>Ciência em Ação</strong> – Software Developer (January 2021 - May 2021)</li>
+	  <li><strong>SENAI CIMATEC/Atos</strong> – Junior Technological Initiation Project (IT) (Octuber 2020 - January 2021)</li>
+    </ul>
+  </section>
+
+  <section id="formacao" class="section">
+    <h2>Formation</h2>
+    <ul>
+      <li>Higher Education in Systems Analysis and Development – IFBA - Instituto Federal da Bahia – November 2020 - June 2024</li>
+      <li>Technical Course in Systems Development – SENAI CIMATEC – June 2019 - December 2021</li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="section highlight">
+    <h2>Projects</h2>
+    <div class="projetos-grid">
+      <div class="projeto-card reveal">
+        <img src="condessa.png" alt="Condessa">
+        <h3>Condessa</h3>
+        <p>Inventory and sales control system.</p>
+        <a href="https://github.com/LeonardoReisAmorim/TCC" target="_blank">See more</a>
+      </div>
+      <div class="projeto-card reveal">
+        <img src="agendlylogo.png" alt="Online scheduling system for professionals">
+        <h3>Agendly</h3>
+        <p>Online scheduling system for professionals.</p>
+        <a href="#" target="_blank">See more</a>
+      </div>
+      <div class="projeto-card reveal">
+        <img src="backgroun_image.png" alt="Virtual environment generator for immersion and interaction in Salvador's tourist attractions">
+        <h3>Visit</h3>
+        <p>Virtual environment generator for immersion and interaction in Salvador's tourist attractions.</p>
+        <a href="#" target="_blank">See more</a>
+      </div>
     </div>
-    
-    <div class="flex-containerE" id="Experience">
-        <div class="divbody" id="experienceMobileTitle">
-            <p class="title">Experience</p>
-        </div>
-        <div class="divbodyE">
-            <div class="cardsEx">
-                <p>Mid Full-Stack Developer<br><br>Gomara Smart Processes<br>November 2023 - Current<br><br>Development and maintenance of applications using ASP.NET, .NET Core, Angular, TypeScript, and front-end technologies such as JavaScript, HTML, CSS, and JQuery. Implementation and maintenance of software architectures, including MVC, SOA with REST API, Microservices, and event-driven architecture with RabbitMQ. Creation and maintenance of Docker containers to automate environments and improve the efficiency of development and deployment processes. Development and optimization of routines in Oracle database, improving the performance and scalability of applications. Integration and automation of tax processes through RPA models. Knowledge of tax models. Results: Reduced query response time by 30% by optimizing database routines and implementing subquery, view, and indexing solutions. Creation of tax model products such as “Taxfit” and “Conta Corrente” which attracted two clients and increased revenue by 20%</p>
-            </div>
-            <div class="cardsEx">
-                <p>Junior Full-Stack Developer<br><br>Gomara Smart Processes<br>December 2021 - November 2023<br><br>Development of layouts, development and maintenance of features with ASP.NET and .NET CORE with Entity Framework framework, MVC software standard, REST API, Angular, TypeScript, Javascript, HTML and CSS, Jquery and Ajax. Development of routines and maintenance in the Oracle database. Knowledge of tax models.</p>
-            </div>
-            <div class="cardsEx">
-                <p>Software development trainee<br><br>Softwell Solutions Ltda.<br>June 2021 - November 2021<br><br>Creation of Layouts, Creation and maintenance of functions in Javascript, Java, IOS, Android; Support and maintenance of Maker, Maker Mobile and Webrun framework tools; Provide Maker developer support. When necessary, support testing activities (functional, non-functional, black box, white box, unit tests) on the solutions developed. Result: Work as a support point for developers in using Maker and Webrun, increasing the efficiency of the team's deliveries.</p>
-            </div>
-            <div class="cardsEx">
-                <p>Software Developer<br><br>Ciência em ação<br>January 2021 - May 2021<br><br>Perform teaching platform maintenance using HTML, CSS, SASS, Javascript, AngularJs, Node and Mongodb. Creation of landing pages using Webflow, together with HTML and CSS. Result: I created new pages on the teaching platform that improved the user experience</p>
-            </div>
-            <div class="cardsEx">
-                <p>Junior Technological Initiation Project (IT)<br><br>SENAI CIMATEC/Atos<br>October 2020 - January 2021<br><br>Feeding a system with image annotation data, based on a video MP4, to train an artificial intelligence system. Annotating data on video frames Result: I worked on developing an AI system trained with high accuracy in analyzing image data.</p>
-            </div>
-        </div>
-    </div>
-    
-    <div class="flex-container" id="Education">
-        <div class="divbody">
-            <p class="title">Formation</p>
-        </div>
-        <div class="divbody" id="educationMobileCard">
-            <div class="cardsEx">
-                IFBA - Instituto Federal da Bahia <br><br> Higher Education <br> Systems Analysis and Development <br><br> November 2020 - September 2024
-            </div>
-            <div class="cardsEx">
-                SENAI CIMATEC <br><br> Technical Course <br> Systems Development <br><br> June 2019 - December 2021
-            </div>
-        </div>
-    </div>
-    
-    <div class="flex-containerE" id="Projects">
-        <div class="divbody">
-            <p class="title">Projects</p>
-        </div>
-        <div class="divbody" id="projectBodyMobile">
-            <div class="cardsEx">
-                <div class="containerProjects">
-                    <div class="imgProject"><img src="condessa.png" alt="Sistema condessa"></div>
-                    <div class="bodyProjects">
-                        <div class="titleProjects">Condessa</div>
-                        <br>
-                        <div class="bodyInternProjects">
-                            Inventory and sales control system.
-                        </div>
-                        <br>
-                        <div class="linkProjects">
-                            <a href="https://github.com/LeonardoReisAmorim/TCC" target="_blank">
-                                See project
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cardsEx">
-                <div class="containerProjects">
-                    <div class="imgProject"><img src="agendlylogo.png" alt="Sistema de agendamentos online para profissionais"></div>
-                    <div class="bodyProjects">
-                        <div class="titleProjects">Agendly</div>
-                        <br>
-                        <div class="bodyInternProjects">
-                            Online scheduling system for professionals.
-                        </div>
-                        <br>
-                        <div class="linkProjects">
-                            <a href="" target="_blank">
-                                See project
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cardsEx">
-                <div class="containerProjects">
-                    <div class="imgProject"><img src="backgroun_image.png" alt="Gerador de ambientes virtuais para imersão e interação nos locais de visitação de Salvador"></div>
-                    <div class="bodyProjects">
-                        <div class="titleProjects">Visit</div>
-                        <br>
-                        <div class="bodyInternProjects">
-                            Virtual environment generator for immersion and interaction in Salvador's tourist attractions
-                        </div>
-                        <br>
-                        <div class="linkProjects">
-                            <a href="" target="_blank">
-                                See project
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="flex-container" id="Skills">
-        <div class="divbody">
-            <p class="title" id="skillsMobile">Skills</p>
-        </div>
-        <div class="divbody" id="skillMobileBody">
-            <div class="skillsBody">
-                <div class="skill">Java</div>
-                <div class="skill">MySQL</div>
-                <div class="skill">Oracle</div>
-                <div class="skill">HTML5</div>
-                <div class="skill">CSS3</div>
-                <div class="skill">Javascript</div>
-                <div class="skill">C# Asp.net Core</div>
-                <div class="skill">Entity Framework</div>
-                <div class="skill">MVC</div>
-                <div class="skill">Selenium</div>
-                <div class="skill">Node</div>
-                <div class="skill">Angular</div>
-                <div class="skill">Jquery</div>
-                <div class="skill">Ajax</div>
-                <div class="skill">Json</div>
-                <div class="skill">C</div>
-                <div class="skill">Bootstrap</div>
-                <div class="skill">API</div>
-                <div class="skill">GIT</div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="flex-container" id="Contact">
-        <div class="divbody">
-            <p class="title">Contact</p>
-        </div>
-        <div class="divbody" id="ContactMobile">
-            <p>Email:     leonardoreisamorimdev@gmail.com</p>
-            <br>
-            <br>
-            <a href="https://github.com/LeonardoReisAmorim" target="_blank" id="Github">
-                Github
-            </a>
-            <br>
-            <br>
-            <br>
-            <a href="https://www.linkedin.com/in/leonardo-reis-amorim-175243192/" target="_blank" id="linkedIn">
-                LinkedIn
-            </a>
-        </div>
-    </div>
-    
-   
-    <script type="text/javascript" src="index.js"></script>
+  </section>
+
+  <!--
+	<section id="skills" class="section">
+		<h2>Skills</h2>
+		<div class="skills-container">
+			<span>Java</span>
+			<span>SQL</span>
+			<span>Oracle</span>
+			<span>HTML5</span>
+			<span>CSS3</span>
+			<span>Javascript</span>
+			<span>C#</span>
+			<span>ASP.NET CORE</span>
+			<span>.NET</span>
+			<span>Entity Framework</span>
+			<span>Entity Framework</span>
+		</div>
+	</section>
+    -->
+  
+  <section id="contato" class="section">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your message" required></textarea>
+      <button type="submit">Submit message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p id="footerYear">&copy;</p>
+  </footer>
 </body>
 </html>
