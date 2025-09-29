@@ -233,13 +233,13 @@ footer {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Responsivo */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2rem;
   }
 
   nav {
+    display: none;
     position: absolute;
     top: 60px;
     right: 0;
@@ -250,6 +250,7 @@ footer {
   }
 
   nav.active {
+    display: inline;
     transform: translateX(0);
   }
 
@@ -286,12 +287,5 @@ footer {
 
   .hamburger {
     display: flex;
-  }
-
-  .section {
-    padding: 3rem 2rem;
-    max-width: 1100px;
-    margin: 0 auto;
-    scroll-margin-top: 0px;
   }
 }
